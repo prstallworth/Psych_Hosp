@@ -1,0 +1,385 @@
+,V1,Type 1,Type 2
+CASEID,Case identification number,Basic,
+LST,State postal code,Basic,
+MHINTAKE,Facility offers mental health intake,BasicOffers,
+MHDIAGEVAL,Facility offers mental health diagnostic evaluation,BasicOffers,
+MHREFERRAL,Facility offers mental health information and/or referral,BasicOffers,
+SMISEDSUD,Offered co-occurring SMI/SED and SUD,BasicOffers,
+TREATMT,Facility offers substance abuse treatment,BasicOffers,Substance Abuse
+ADMINSERV,Facility offers administrative or operational services for mental health treatment facilities,BasicOffers,24Hour
+SETTINGIP,Provides mental health treatment in a 24-hour hospital inpatient setting,BasicOffers,24Hour
+SETTINGRC,Provides mental health treatment in a 24-hour residential setting,BasicOffers,24Hour
+SETTINGDTPH,Provides mental health treatment in a partial hospitalization/day treatment setting,BasicOffers,
+SETTINGOP,Provides mental health treatment in an outpatient setting,BasicOffers,
+FACILITYTYPE,Facility type,OrgType,
+FOCUS,Primary treatment focus of facility,OrgType,
+OWNERSHP,Organization that operates the facility,OrgType,
+PUBLICAGENCY,Public agency or department that operates facility,OrgType,
+RELIG,Facility is affiliated with a religious or faith-based organization,OrgType,
+TREATPSYCHOTHRPY,Facility offers individual psychotherapy,Therapy,
+TREATFAMTHRPY,Facility offers couples/family therapy,Therapy,
+TREATGRPTHRPY,Facility offers group therapy,Therapy,
+TREATCOGTHRPY,Facility offers cognitive behavioral therapy,Therapy,
+TREATDIALTHRPY,Facility offers dialectical behavior therapy,Therapy,
+TREATCOGREM,Facility provides cognitive remediation therapy,Therapy,
+TREATBEHAVMOD,Facility offers behavior modification,Therapy,
+TREATDUALMHSA,Facility offers integrated dual disorders treatment,Therapy,
+TREATTRAUMATHRPY,Facility offers trauma therapy,Therapy,
+TREATACTVTYTHRPY,Facility offers activity therapy,Therapy,
+TREATELECTRO,Facility offers electroconvulsive therapy,Therapy,
+TREATTMS,Facility provides Transcranial Magnetic Stimulation (TMS),Therapy,
+TREATKIT,Facility provides Ketamine Infusion Therapy (KIT),Therapy,
+TREATEMDR,Facility provides Eye Movement Desensitization andReprocessing (EMDR),Therapy,
+TREATTELEMEDINCE,Facility offers telemedicine/telehealth therapy,Therapy,
+TREATOTH,Facility offers other mental health treatment approach,Therapy,
+NOTREAT,Facility offers none of the identified mental health treatment approaches,Therapy,
+ANTIPSYCH,Antipsychotics for the treatment of serious mental illness (SMI),Drug,
+CHLOR_NO,Chlorpromazine not used at this facility for treatment of SMI,Drug,Chlorpromazine
+CHLOR_ORAL,Oral chlorpromazine used at this facility for treatment of SMI,Drug,Chlorpromazine
+CHLOR_INJ,Injectable chlorpromazine used at this facility for treatment of SMI,Drug,Chlorpromazine
+CHLOR_REC,Rectal chlorpromazine used at this facility for treatment of SMI,Drug,Droperidol
+DROPE_NO,Droperidol not used at this facility for treatment of SMI,Drug,Droperidol
+DROPE_INJ,Injectable droperidol used at this facility for treatment of SMI,Drug,Droperidol
+FLUPH_NO,Fluphenazine not used at this facility for treatment of SMI,Drug,Fluphenazine
+FLUPH_ORAL,Oral fluphenazine used at this facility for treatment of SMI,Drug,Fluphenazine
+FLUPH_INJ,Injectable fluphenazine used at this facility for treatment of SMI,Drug,Fluphenazine
+FLUPH_LAI,Long-acting injectable fluphenazine used at this facility for treatment of SMI,Drug,Fluphenazine
+HALOP_NO,Haloperidol not used at this facility for treatment of SMI,Drug,Haloperidol
+HALOP_ORAL,Oral haloperidol used at this facility for treatment of SMI,Drug,Haloperidol
+HALOP_INJ,Injectable haloperidol used at this facility for treatment of SMI,Drug,Haloperidol
+HALOP_LAI,Long-acting injectable haloperidol used at this facility for treatment of SMI,Drug,Haloperidol
+LOXAP_NO,Loxapine not used at this facility for treatment of SMI,Drug,Loxapine
+LOXAP_ORAL,Oral Loxapine used at this facility for treatment of SMI,Drug,Loxapine
+LOXAP_INJ,Injectable Loxapine used at this facility for treatment of SMI,Drug,Loxapine
+PERPH_NO,Perphenazine not used at this facility for treatment of SMI,Drug,Perphenazine
+PERPH_ORAL,Oral perphenazine used at this facility for treatment of SMI,Drug,Perphenazine
+PERPH_INJ,Injectable perphenazine used at this facility for treatment of SMI,Drug,Perphenazine
+PIMOZ_NO,Pimozide not used at this facility for treatment of SMI,Drug,Pimozide
+PIMOZ_ORAL,Oral pimozide used at this facility for treatment of SMI,Drug,Pimozide
+PIMOZ_TOP,Topical pimozide used at this facility for treatment of SMI,Drug,Pimozide
+PROCH_NO,Prochlorperazine not used at this facility for treatment of SMI,Drug,Prochlorperazine
+PROCH_ORAL,Oral prochlorperazine used at this facility for treatment of SMI,Drug,Prochlorperazine
+PROCH_INJ,Injectable prochlorperazine used at this facility for treatment of SMI,Drug,Prochlorperazine
+PROCH_REC,Rectal prochlorperazine used at this facility for treatment of SMI,Drug,Thiothixene
+THIOT_NO,Thiothixene not used at this facility for treatment of SMI,Drug,Thiothixene
+THIOT_ORAL,Oral thiothixene used at this facility for treatment of SMI,Drug,Thiothixene
+THIOT_INJ,Injectable thiothixene used at this facility for treatment of SMI,Drug,Thiothixene
+THIOR_NO,Thioridazine not used at this facility for treatment of SMI,Drug,Thioridazine
+THIOR_ORAL,Oral thioridazine used at this facility for treatment of SMI,Drug,Thioridazine
+TRIFL_NO,Trifluoperazine not used at this facility for treatment of SMI,Drug,Trifluoperazine
+TRIFL_ORAL,Oral trifluoperazine used at this facility for treatment of SMI,Drug,Trifluoperazine
+TRIFL_INJ,Injectable trifluoperazine used at this facility for treatment of SMI,Drug,Trifluoperazine
+FSTGENOTH_NO,Other first-generation antipsychotics not used at this facility for treatment of SMI,Drug,
+FSTGENOTH_ORAL,Other oral first-generation antipsychotics used at this facility for treatment of SMI,Drug,
+FSTGENOTH_INJ,Other injectable first-generation antipsychotics used at this facility for treatment of SMI,Drug,
+FSTGENOTH_LAI,Other long-acting injectable first-generation antipsychotics used at this facility for treatment of SMI,Drug,
+FSTGENOTH_REC,Other rectal first-generation antipsychotics used at this facility for treatment of SMI,Drug,
+FSTGENOTH_TOP,Other topical first-generation antipsychotics used at this facility for treatment of SMI,Drug,
+ARIPI_NO,Aripiprazole not used at this facility for treatment of SMI,Drug,Aripiprazole
+ARIPI_ORAL,Oral aripiprazole used at this facility for treatment of SMI,Drug,Aripiprazole
+ARIPI_INJ,Injectable aripiprazole used at this facility for treatment of SMI,Drug,Aripiprazole
+ARIPI_LAI,Long-acting injectable aripiprazole used at this facility for treatment of SMI,Drug,Asenapine
+ASENA_NO,Asenapine not used at this facility for treatment of SMI,Drug,Asenapine
+ASENA_ORAL,Oral asenapine used at this facility for treatment of SMI,Drug,Asenapine
+ASENA_INJ,Injectable asenapine used at this facility for treatment of SMI,Drug,Asenapine
+BREXP_NO,Brexpiprazole not used at this facility for treatment of SMI,Drug,Brexpiprazole
+BREXP_ORAL,Oral brexpiprazole used at this facility for treatment of SMI,Drug,Brexpiprazole
+CARIP_NO,Cariprazine not used at this facility for treatment of SMI,Drug,Cariprazine
+CARIP_ORAL,Oral cariprazine used at this facility for treatment of SMI,Drug,Cariprazine
+CLOZA_NO,Clozapine not used at this facility for treatment of SMI,Drug,Clozapine
+CLOZA_ORAL,Oral clozapine used at this facility for treatment of SMI,Drug,Clozapine
+ILOPE_NO,Iloperidone not used at this facility for treatment of SMI,Drug,Iloperidone
+ILOPE_ORAL,Oral iloperidone used at this facility for treatment of SMI,Drug,Iloperidone
+LURAS_NO,Lurasidone not used at this facility for treatment of SMI,Drug,Lurasidone
+LURAS_ORAL,Oral lurasidone used at this facility for treatment of SMI,Drug,Lurasidone
+OLANZ_NO,Olanzapine not used at this facility for treatment of SMI,Drug,Olanzapine
+OLANZ_ORAL,Oral olanzapine used at this facility for treatment of SMI,Drug,Olanzapine
+OLANZ_INJ,Injectable olanzapine used at this facility for treatment of SMI,Drug,Olanzapine
+OLANZ_LAI,Long-acting injectable olanzapine used at this facility for treatment of SMI,Drug,Olanzapine
+OLANZFLU_NO,Olanzapine/fluoxetine combination not used at this facility for treatment of SMI,Drug,Olanzapine/Fluoxetine
+OLANZFLU_ORAL,Oral olanzapine/fluoxetine combination used at this facility for treatment of SMI,Drug,Olanzapine/Fluoxetine
+PALIP_NO,Paliperidone not used at this facility for treatment of SMI,Drug,Paliperidone
+PALIP_ORAL,Oral paliperidone used at this facility for treatment of SMI,Drug,Paliperidone
+PALIP_INJ,Injectable paliperidone used at this facility for treatment of SMI,Drug,Paliperidone
+PALIP_LAI,Long-acting injectable paliperidone used at this facility for treatment of SMI,Drug,Paliperidone
+QUETI_NO,Quetiapine not used at this facility for treatment of SMI,Drug,Quetiapine
+QUETI_ORAL,Oral quetiapine used at this facility for treatment of SMI,Drug,Quetiapine
+RISPE_NO,Risperidone not used at this facility for treatment of SMI,Drug,Risperidone
+RISPE_ORAL,Oral risperidone used at this facility for treatment of SMI,Drug,Risperidone
+RISPE_INJ,Injectable risperidone used at this facility for treatment of SMI,Drug,Risperidone
+RISPE_LAI,Long-acting injectable risperidone used at this facility for treatment of SMI,Drug,Risperidone
+ZIPRA_NO,Ziprasidone not used at this facility for treatment of SMI,Drug,Ziprasidone
+ZIPRA_ORAL,Oral ziprasidone used at this facility for treatment of SMI,Drug,Ziprasidone
+ZIPRA_INJ,Injectable ziprasidone used at this facility for treatment of SMI,Drug,Ziprasidone
+SECGEN1OTH_NO,Other second-generation antipsychotics (A) not used at this facility for treatment of SMI,Drug,
+SECGEN1OTH_ORAL,Other oral second-generation antipsychotics (A) used at this facility for treatment of SMI,Drug,
+SECGEN1OTH_INJ,Other injectable second-generation antipsychotics (A) used at this facility for treatment of SMI,Drug,
+SECGEN1OTH_LAI,Other long-acting injectable second-generation antipsychotics (A) used at this facility for treatment of SMI,Drug,
+SECGEN1OTH_REC,Other rectal second-generation antipsychotics (A) used at this facility for treatment of SMI,Drug,
+SECGEN1OTH_TOP,Other topical second-generation antipsychotics (A) used at this facility for treatment of SMI,Drug,
+SECGEN2OTH_NO,Other second-generation antipsychotics (B) not used at this facility for treatment of SMI,Drug,
+SECGEN2OTH_ORAL,Other oral second-generation antipsychotics (B) used at this facility for treatment of SMI,Drug,
+SECGEN2OTH_INJ,Other injectable second-generation antipsychotics (B) used at this facility for treatment of SMI,Drug,
+SECGEN2OTH_LAI,Other long-acting injectable second-generation antipsychotics (B) used at this facility for treatment of SMI,Drug,
+SECGEN2OTH_REC,Other rectal second-generation antipsychotics (B) used at this facility for treatment of SMI,Drug,
+SECGEN2OTH_TOP,Other topical second-generation antipsychotics (B) used at this facility for treatment of SMI,Drug,
+SECGEN3OTH_NO,Other second-generation antipsychotics (C) not used at this facility for treatment of SMI,Drug,
+SECGEN3OTH_ORAL,Other oral second-generation antipsychotics (C) used at this facility for treatment of SMI,Drug,
+SECGEN3OTH_INJ,Other injectable second-generation antipsychotics (C) used at this facility for treatment of SMI,Drug,
+SECGEN3OTH_LAI,Other long-acting injectable second-generation antipsychotics (C) used at this facility for treatment of SMI,Drug,
+SECGEN3OTH_REC,Other rectal second-generation antipsychotics (C) used at this facility for treatment of SMI,Drug,
+SECGEN3OTH_TOP,Other topical second-generation antipsychotics (C) used at this facility for treatment of SMI,Drug,
+ASSERTCOMM,Facility offers assertive community treatment (ACT),Services,
+MHINTCASEMGMT,Facility offers intensive case management services,Services,
+MHCASEMGMT,Facility offers case management services,Services,
+MHCOURTORDERED,Facility offers court-ordered outpatient treatment,Services,
+MHAOT,Facility provides assisted outpatient treatment (AOT),Services,
+MHCHRONIC,Facility offers chronic disease/illness management services,Services,
+ILLNESSMGMT,Facility offers illness management and recovery (IMR) services,Services,
+PRIMARYCARE,Facility offers integrated primary care services,Services,
+DIETEXERCOUNSEL,Facility offers diet and exercise counseling,Services,
+FAMPSYCHED,Facility offers family psychoeducation,Services,
+MHEDUCATION,Facility offers education services,Services,
+MHHOUSING,Facility offers housing services,Services,
+SUPPHOUSING,Facility offers supported housing programs,Services,
+MHPSYCHREHAB,Facility offers psychosocial rehabilitation services,Services,
+MHVOCREHAB,Facility offers vocational rehabilitation services,Services,
+SUPPEMPLOY,Facility offers supported employment services,Services,
+FOSTERCARE,Facility offers therapeutic foster care,Services,
+MHLEGAL,Facility offers legal advocacy,Services,Law
+MHEMGCY,Facility offers psychiatric emergency walk-in services,Services,
+MHSUICIDE,Facility offers suicide prevention services,Services,
+MHCONSUMER,Facility offers consumer-run (peer support) services,Services,
+MHHBV,Facility provides testing for Hepatitis B (HBV),Services,
+MHHCV,Facility provides testing for Hepatitis C (HCV),Services,
+MHHIV,Facility provides HIV testing,Services,
+MHSTD,Facility provides STD testing,Services,
+MHTB,Facility provides TB screening,Services,
+MHTOBACCOUSE,Facility offers screening for tobacco use,Services,
+MHTOBACCOCESS,Facility offers smoking/tobacco cessation counseling,Services,
+MHNICOTINEREP,Facility offers nicotine replacement therapy,Services,
+SMOKINGCESSATION,Facility offers non-nicotine smoking/tobacco cessation medications (by prescription),Services,
+MHOTH,Facility offers other services and practices,Services,
+MHNOSVCS,Facility offers none of the identified services or practices,Services,
+YNGCHLD,Accepts young children (aged 0-5 years old) for treatment,AgeInfo,
+CHILDREN,Accepts children (aged 6-12 years old) for treatment,AgeInfo,
+ADOLES,Accepts adolescents (aged 13-17 years old) for treatment,AgeInfo,
+YOUNGADULTS,Accepts young adults (aged 18-25 years old) for treatment,AgeInfo,
+ADULT,Accepts adults (aged 26-64 years old) for treatment,AgeInfo,
+SENIORS,Accepts seniors (aged 65 years and older) for treatment,AgeInfo,
+SED,Facility offers dedicated mental health treatment program for children/adolescents with serious emotional disturbance (SED),AgeInfo,
+TAYOUNGADULTS,Facility offers dedicated mental health treatment program for transitional age young adults,AgeInfo,
+SPMI,Facility offers dedicated mental health treatment program for persons aged 18 years and older with serious mental illness (SMI),AgeInfo,
+SRVC63,Facility offers dedicated mental health treatment program for seniors or older adults,AgeInfo,
+ALZHDEMENTIA,Facility has a tailored program for persons with Alzheimer’s or dementia,DedTreatment,
+SRVC31,Facility offers dedicated mental health treatment program for persons with co-occurring mental and substance use disorders,DedTreatment,Substance Abuse
+SPECGRPEATING,Facility offers dedicated mental health treatment program for persons with eating disorders,DedTreatment,
+FIRSTEPPSYCH,Facility offers dedicated mental health treatment program for persons experiencing first-episode psychosis,DedTreatment,
+SRVC122,Facility offers dedicated mental health treatment program for persons who have experienced domestic violence,DedTreatment,
+POSTTRAUM,Facility offers a dedicated mental health treatment program for persons with a diagnosis of post-traumatic stress disorder (PTSD),DedTreatment,
+SRVC116,Facility offers dedicated mental health treatment program for persons who have experienced trauma (excluding persons with a PTSD diagnosis),DedTreatment,
+TRAUMATICBRAIN,Facility offers dedicated mental health treatment program for persons with traumatic brain injury,DedTreatment,
+SRVC113,Facility offers dedicated mental health treatment program for veterans,DedTreatment,
+SRVC114,Facility offers dedicated mental health treatment program for active duty military,DedTreatment,
+SRVC115,Facility offers dedicated mental health treatment program for members of military families,DedTreatment,
+SRVC62,"Facility offers dedicated mental health treatment program for lesbian, gay, bisexual, or transgender clients (LGBT)",DedTreatment,
+SRVC61,Facility offers dedicated mental health treatment program for forensic clients (referred from the court/judicial system),DedTreatment,
+SRVC32,Facility offers dedicated mental health treatment program for persons with HIV or AIDS,DedTreatment,
+SRVC35,Facility offers other dedicated mental health treatment program,DedTreatment,
+NOSPECGRP,Facility does not offer any dedicated mental health treatment program or group,DedTreatment,
+CRISISTEAM2,Facility offers crisis intervention team that handles acute mental health issues at this facility and/or off-site,Crisis,
+PSYCHON,Services for psychiatric emergencies onsite,Crisis,
+PSYCHOFF,Mobile/off-site psychiatric crisis services,Crisis,
+SIGNLANG,Provides mental health treatment services in sign language for the deaf and hard-of-hearing,Language,
+LANG,Facility provides mental health treatment services in a language other than English,Language,
+LANGPROV,Person who provides mental health treatment services in a language other than English,Language,
+LANG16,Staff provide mental health treatment services in Spanish,Language,
+LANG_B,Staff provide mental health treatment services in any other languages,Language,
+LANG1,Staff provide mental health treatment services in Hopi,Language,
+LANG2,Staff provide mental health treatment services in Lakota,Language,
+LANG3,Staff provide mental health treatment services in Navajo,Language,
+LANG21,Staff provide mental health treatment services in Ojibwa,Language,
+LANG4,Staff provide mental health treatment services in Yupik,Language,
+LANG5,Staff provide mental health treatment services in other American Indian or Alaska Native language,Language,
+LANG6,Staff provide mental health treatment services in Arabic,Language,
+LANG7,Staff provide mental health treatment services in any Chinese language,Language,
+LANG8,Staff provide mental health treatment services in Creole,Language,
+LANG24,Staff provide mental health treatment services in Farsi,Language,
+LANG9,Staff provide mental health treatment services in French,Language,
+LANG10,Staff provide mental health treatment services in German,Language,
+LANG22,Staff provide mental health treatment services in Greek,Language,
+LANG25,Staff provide mental health treatment services in Hebrew,Language,
+LANG26,Staff provide mental health treatment services in Hindi,Language,
+LANG11,Staff provide mental health treatment services in Hmong,Language,
+LANG19,Staff provide mental health treatment services in Italian,Language,
+LANG23,Staff provide mental health treatment services in Japanese,Language,
+LANG12,Staff provide mental health treatment services in Korean,Language,
+LANG13,Staff provide mental health treatment services in Polish,Language,
+LANG14,Staff provide mental health treatment services in Portuguese,Language,
+LANG15,Staff provide mental health treatment services in Russian,Language,
+LANG20,Staff provide mental health treatment services in Tagalog,Language,
+LANG17,Staff provide mental health treatment services in Vietnamese,Language,
+LANG18,Staff provide mental health treatment services in any other language not listed,Language,
+CONTED,Continuing education requirements for professional staff is part of facility’s standard operating procedures,Policy,
+CASEREV,Regularly scheduled case review with a supervisor is part of facility’s standard operating procedures,Policy,
+QUALREV,Regularly scheduled case review by an appointed quality review committee is part of facility’s standard operating procedures,Policy,
+OUTFUP,Client outcome follow-up after discharge is part of facility’s standard operating procedures,Policy,
+CQIP,Continuous quality improvement processes is part of facility's standard operating procedures,Policy,
+SATSUR,Periodic client satisfaction surveys are part of facility’s standard operating procedures,Policy,
+CPPR,Clinical provider peer review (CPPR) is part of facility's standard operating procedures,Policy,
+RCA,Root cause analysis (RCA) is part of facility's standard operating procedures,Policy,
+SMOKINGPOLICY,Facility’s smoking policy for clients,Policy,
+USEDSECLUSION,Staff have used seclusion or restraint with clients in the 12-month period,Policy,
+ADOPTSECLUSION,Facility has policies to minimize the use of seclusion or restraint,Policy,
+FEESCALE,Facility uses a sliding fee scale,Money,
+PAYASST,Facility offers treatment at no charge or minimal payment to clients who cannot afford to pay,Money,
+REVCHK1,Accepts cash or self-payment for mental health treatment services,Money,
+REVCHK2,Accepts private health insurance as source of payment for mental health treatment services,Money,
+REVCHK8,Accepts Medicare as source of payment for mental health treatment services,Money,
+REVCHK5,Accepts Medicaid as source of payment for mental health treatment services,Money,
+REVCHK10,Accepts state-financed health insurance plan other than Medicaid as source of payment for mental health treatment services,Money,
+FUNDSMHA,Accepts state mental health agency funds as source of payment for mental health treatment services,Money,
+FUNDSTATEWELFARE,Accepts state welfare or child and family services agency funds as source of payment for mental health treatment services,Money,
+FUNDSTATEJUV,Accepts state corrections/juvenile justice agency funds as source of payment for mental health treatment services,Money,
+FUNDSTATEEDUC,Accepts state education agency funds as source of payment for mental health treatment services,Money,
+FUNDOTHSTATE,Accepts other state government funds as source of payment for mental health treatment services,Money,
+FUNDLOCALGOV,Accepts county or local government funds as source of payment for mental health treatment services,Money,
+FUNDCSBG,Accepts Community Service Block Grants as source of payment for mental health treatment services,Money,
+FUNDCMHG,Accepts Community Mental Health Block Grants as source of payment for mental health treatment services,Money,
+FUNDFEDGRANT,Accepts Federal grants as source of payment for mental health treatment services,Money,
+REVCHK15,Accepts federal military insurance (such as TRICARE) as source of payment for mental health treatment services,Money,
+FUNDVA,Accepts U.S. Department of Veterans Affairs funds as source of payment for mental health treatment services,Money,
+REVCHK17,Accepts IHS/Tribal/Urban (ITU) funds as source of payment for mental health treatment services,Money,
+FUNDPRIVCOMM,Accepts Private or Community foundation funds as source of payment for mental health treatment services,Money,
+REVCHK2A,Accepts other sources of payment for mental health treatment services,Money,
+LICENMH,Facility is licensed by state mental health authority,License,
+LICENSED,Facility is licensed by state substance abuse agency,License,
+LICENPH,Facility is licensed by state department of health,License,
+LICENSEDFCS,Facility is licensed by state or local department of family and children’s services,License,
+LICENHOS,Facility is licensed by hospital licensing authority,License,
+JCAHO,Facility has Joint Commission accreditation,License,
+CARF,Facility is Commission on Accreditation of Rehabilitation Facilities (CARF)-accredited,License,
+COA,Facility is Council on Accreditation (COA)-accredited,License,
+CMS,Facility is certified by Centers for Medicare and Medicaid Services (CMS),License,
+OTHSTATE,"Facility has licensing, certification, or accreditation from other national organization, or federal, state, or local agency",License,
+OTHFAC,Client/patient counts reported for only this facility/this facility plus others/none,Demographics,
+FACNUM,Number of facilities included in reported client/patient counts,Demographics,
+IPSERV,"Patients received 24-hour hospital inpatient mental health treatment on April 30, 2020",Demographics,
+IPTOTAL,"Total number of patients receiving 24-hour hospital inpatient mental health treatment on April 30, 2020",Demographics,
+IPSEXTOTM,"Patients receiving 24-hour hospital inpatient mental health treatment — male, number",Demographics,
+IPSEXPERM,"Patients receiving 24-hour hospital inpatient mental health treatment — male, percent",Demographics,
+IPSEXTOTF,"Patients receiving 24-hour hospital inpatient mental health treatment — female, number",Demographics,
+IPSEXPERF,"Patients receiving 24-hour hospital inpatient mental health treatment — female, percent",Demographics,
+IPAGETOT017,"Patients receiving 24-hour hospital inpatient mental health treatment — aged 0-17 years old, number",Demographics,
+IPAGEPER017,"Patients receiving 24-hour hospital inpatient mental health treatment — aged 0-17 years old, percent",Demographics,
+IPAGETOT1864,"Patients receiving 24-hour hospital inpatient mental health treatment — aged 18-64 years old, number",Demographics,
+IPAGEPER1864,"Patients receiving 24-hour hospital inpatient mental health treatment — aged 18-64 years old, percent",Demographics,
+IPAGETOT65,"Patients receiving 24-hour hospital inpatient mental health treatment — aged 65 years and older, number",Demographics,
+IPAGEPER65,"Patients receiving 24-hour hospital inpatient mental health treatment — aged 65 years and older, percent",Demographics,
+IPETHTOTHISP,"Patients receiving 24-hour hospital inpatient mental health treatment — Hispanic or Latino, number",Demographics,
+IPETHPERHISP,"Patients receiving 24-hour hospital inpatient mental health treatment — Hispanic or Latino, percent",Demographics,
+IPETHTOTNONHISP,"Patients receiving 24-hour hospital inpatient mental health treatment — non-Hispanic or Latino, number",Demographics,
+IPETHPERNONHISP,"Patients receiving 24-hour hospital inpatient mental health treatment — non-Hispanic or Latino, percent",Demographics,
+IPETHTOTUNK,"Patients receiving 24-hour hospital inpatient mental health treatment — unknown ethnicity, number",Demographics,
+IPETHPERUNK,"Patients receiving 24-hour hospital inpatient mental health treatment — unknown ethnicity, percent",Demographics,
+IPRACETOTINDIAN,"Patients receiving 24-hour hospital inpatient mental health treatment — American Indian or Alaska Native, number",Demographics,
+IPRACEPERINDIAN,"Patients receiving 24-hour hospital inpatient mental health treatment — American Indian or Alaska Native, percent",Demographics,
+IPRACETOTASIAN,"Patients receiving 24-hour hospital inpatient mental health treatment — Asian, number",Demographics,
+IPRACEPERASIAN,"Patients receiving 24-hour hospital inpatient mental health treatment — Asian, percent",Demographics,
+IPRACETOTBLK,"Patients receiving 24-hour hospital inpatient mental health treatment — Black or African American, number",Demographics,
+IPRACEPERBLK,"Patients receiving 24-hour hospital inpatient mental health treatment — Black or African American, percent",Demographics,
+IPRACETOTHAWPAC,"Patients receiving 24-hour hospital inpatient mental health treatment — Native Hawaiian or Other Pacific Islander, number",Demographics,
+IPRACEPERHAWPAC,"Patients receiving 24-hour hospital inpatient mental health treatment — Native Hawaiian or Other Pacific Islander, percent",Demographics,
+IPRACETOTWHIT,"Patients receiving 24-hour hospital inpatient mental health treatment — White, number",Demographics,
+IPRACEPERWHIT,"Patients receiving 24-hour hospital inpatient mental health treatment — White, number",Demographics,
+IPRACETOTMR,"Patients receiving 24-hour hospital inpatient mental health treatment — two or more races, number",Demographics,
+IPRACEPERMR,"Patients receiving 24-hour hospital inpatient mental health treatment — two or more races, percent",Demographics,
+IPRACETOTUNK,"Patients receiving 24-hour hospital inpatient mental health treatment — unknown race, number",Demographics,
+IPRACEPERUNK,"Patients receiving 24-hour hospital inpatient mental health treatment — unknown race, percent",Demographics,
+IPLEGALTOTVOL,"Patients receiving 24-hour hospital inpatient mental health treatment — voluntary legal status, number",Demographics,
+IPLEGALPERVOL,"Patients receiving 24-hour hospital inpatient mental health treatment — voluntary legal status, percent",Demographics,
+IPLEGALTOTNONFOREN,"Patients receiving 24-hour hospital inpatient mental health treatment — involuntary (non-forensic) legal status, number",Demographics,
+IPLEGALPERNONFOREN,"Patients receiving 24-hour hospital inpatient mental health treatment — involuntary (non-forensic) legal status, percent",Demographics,
+IPLEGALTOTFOREN,"Patients receiving 24-hour hospital inpatient mental health treatment — involuntary (forensic) legal status, number",Demographics,
+IPLEGALPERFOREN,"Patients receiving 24-hour hospital inpatient mental health treatment — involuntary (forensic) legal status, percent",Demographics,
+IPBEDS,Number of hospital inpatient beds at this facility designated for providing mental health treatment,Demographics,
+RCSERV,"Clients received 24-hour residential mental health treatment on April 30, 2020",Demographics,
+RCTOTAL,"Total number of clients receiving 24-hour residential mental health treatment on April 30, 2020",Demographics,
+RCSEXTOTM,"Patients receiving 24-hour residential mental health treatment — male, number",Demographics,
+RCSEXPERM,"Patients receiving 24-hour residential mental health treatment — male, percent",Demographics,
+RCSEXTOTF,"Patients receiving 24-hour residential mental health treatment — female, number",Demographics,
+RCSEXPERF,"Patients receiving 24-hour residential mental health treatment — female, percent",Demographics,
+RCAGETOT017,"Patients receiving 24-hour residential mental health treatment — aged 0-17 years old, number",Demographics,
+RCAGEPER017,"Patients receiving 24-hour residential mental health treatment — aged 0-17 years old, percent",Demographics,
+RCAGETOT1864,"Patients receiving 24-hour residential mental health treatment — aged 18-64 years old, number",Demographics,
+RCAGEPER1864,"Patients receiving 24-hour residential mental health treatment — aged 18-64 years old, percent",Demographics,
+RCAGETOT65,"Patients receiving 24-hour residential mental health treatment — aged 65 years and older, number",Demographics,
+RCAGEPER65,"Patients receiving 24-hour residential mental health treatment — aged 65 years and older, percent",Demographics,
+RCETHTOTHISP,"Patients receiving 24-hour residential mental health treatment — Hispanic or Latino, number",Demographics,
+RCETHPERHISP,"Patients receiving 24-hour residential mental health treatment — Hispanic or Latino, percent",Demographics,
+RCETHTOTNONHISP,"Patients receiving 24-hour residential mental health treatment — non-Hispanic or Latino, number",Demographics,
+RCETHPERNONHISP,"Patients receiving 24-hour residential mental health treatment — non-Hispanic or Latino, percent",Demographics,
+RCETHTOTUNK,"Patients receiving 24-hour residential mental health treatment — unknown ethnicity, number",Demographics,
+RCETHPERUNK,"Patients receiving 24-hour residential mental health treatment — unknown ethnicity, percent",Demographics,
+RCRACETOTINDIAN,"Patients receiving 24-hour residential mental health treatment — American Indian or Alaska Native, number",Demographics,
+RCRACEPERINDIAN,"Patients receiving 24-hour residential mental health treatment — American Indian or Alaska Native, percent",Demographics,
+RCRACETOTASIAN,"Patients receiving 24-hour residential mental health treatment — Asian, number",Demographics,
+RCRACEPERASIAN,"Patients receiving 24-hour residential mental health treatment — Asian, percent",Demographics,
+RCRACETOTBLK,"Patients receiving 24-hour residential mental health treatment — Black or African American, number",Demographics,
+RCRACEPERBLK,"Patients receiving 24-hour residential mental health treatment — Black or African American, percent",Demographics,
+RCRACETOTHAWPAC,"Patients receiving 24-hour residential mental health treatment — Native Hawaiian or Other Pacific Islander, number",Demographics,
+RCRACEPERHAWPAC,"Patients receiving 24-hour residential mental health treatment — Native Hawaiian or Other Pacific Islander, percent",Demographics,
+RCRACETOTWHIT,"Patients receiving 24-hour residential mental health treatment — White, number",Demographics,
+RCRACEPERWHIT,"Patients receiving 24-hour residential mental health treatment — White, percent",Demographics,
+RCRACETOTMR,"Patients receiving 24-hour residential mental health treatment — two or more races, number",Demographics,
+RCRACEPERMR,"Patients receiving 24-hour residential mental health treatment — two or more races, percent",Demographics,
+RCRACETOTUNK,"Patients receiving 24-hour residential mental health treatment — unknown race, number",Demographics,
+RCRACEPERUNK,"Patients receiving 24-hour residential mental health treatment — unknown race, percent",Demographics,
+RCLEGALTOTVOL,"Patients receiving 24-hour residential mental health treatment — voluntary legal status, number",Demographics,
+RCLEGALPERVOL,"Patients receiving 24-hour residential mental health treatment — voluntary legal status, percent",Demographics,
+RCLEGALTOTNONFOREN,"Patients receiving 24-hour residential mental health treatment — involuntary (non-forensic) legal status, number",Demographics,
+RCLEGALPERNONFOREN,"Patients receiving 24-hour residential mental health treatment — involuntary (non-forensic) legal status, percent",Demographics,
+RCLEGALTOTFOREN,"Patients receiving 24-hour residential mental health treatment — involuntary (forensic) legal status, number",Demographics,
+RCLEGALPERFOREN,"Patients receiving 24-hour residential mental health treatment — involuntary (forensic) legal status, percent",Demographics,
+RCBEDS,"Number of residential beds at this facility designated for providing mental health treatment on April 30, 2020",Demographics,
+OPSERV,Clients received less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) during April 2020,Demographics,
+OPTOTAL,Total number of clients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) during April 2020,Demographics,
+OPSEXTOTM,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — male, number",Demographics,
+OPSEXPERM,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — male, percent",Demographics,
+OPSEXTOTF,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — female, number",Demographics,
+OPSEXPERF,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — female, percent",Demographics,
+OPAGETOT017,"Patients receiving less-than-24-hour residential mental health treatment (outpatient and partial hospitalization/day treatment) — aged 0-17 years old, number",Demographics,
+OPAGEPER017,"Patients receiving less-than-24-hour residential mental health treatment (outpatient and partial hospitalization/day treatment) — aged 0-17 years old, percent",Demographics,
+OPAGETOT1864,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — aged 18-64 years old, number",Demographics,
+OPAGEPER1864,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — aged 18-64 years old, percent",Demographics,
+OPAGETOT65,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — aged 65 years and older, number",Demographics,
+OPAGEPER65,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — aged 65 years and older, percent",Demographics,
+OPETHTOTHISP,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — Hispanic or Latino, number",Demographics,
+OPETHPERHISP,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — Hispanic or Latino, percent",Demographics,
+OPETHTOTNONHISP,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — non-Hispanic or Latino, number",Demographics,
+OPETHPERNONHISP,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — non-Hispanic or Latino, percent",Demographics,
+OPETHTOTUNK,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — unknown ethnicity, number",Demographics,
+OPETHPERUNK,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — unknown ethnicity, percent",Demographics,
+OPRACETOTINDIAN,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — American Indian or Alaska Native, number",Demographics,
+OPRACEPERINDIAN,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — American Indian or Alaska Native, percent",Demographics,
+OPRACETOTASIAN,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — Asian, number",Demographics,
+OPRACEPERASIAN,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — Asian, percent)",Demographics,
+OPRACETOTBLK,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — Black or African American, number",Demographics,
+OPRACEPERBLK,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — Black or African American, percent",Demographics,
+OPRACETOTHAWPAC,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — Native Hawaiian or Other Pacific Islander, number",Demographics,
+OPRACEPERHAWPAC,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — Native Hawaiian or Other Pacific Islander, percent",Demographics,
+OPRACETOTWHIT,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — White, number",Demographics,
+OPRACEPERWHIT,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — White, percent",Demographics,
+OPRACETOTMR,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — two or more races, number",Demographics,
+OPRACEPERMR,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — two or more races, percent",Demographics,
+OPRACETOTUNK,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — unknown race, number",Demographics,
+OPRACEPERUNK,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — unknown race, percent",Demographics,
+OPLEGALTOTVOL,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — voluntary legal status, number",Demographics,
+OPLEGALPERVOL,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — voluntary legal status, percent",Demographics,
+OPLEGALTOTNONFOREN,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — involuntary (non-forensic) legal status, number",Demographics,
+OPLEGALPERNONFOREN,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — involuntary (non-forensic) legal status, percent",Demographics,
+OPLEGALTOTFOREN,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — involuntary (forensic) legal status, number",Demographics,
+OPLEGALPERFOREN,"Patients receiving less-than-24-hour mental health treatment (outpatient and partial hospitalization/day treatment) — involuntary (forensic) legal status, percent",Demographics,
+COD_PCT,"Percent of mental health treatment clients/patients enrolled at this facility on April 30, 2020, who had diagnosed co-occurring mental and substance use disorders",Demographics,
+TOTADMIS,Number of mental health treatment admissions in previous 12-month period,Demographics,
+PERCENTVA,Estimated percent of admissions who were military veterans,Demographics,

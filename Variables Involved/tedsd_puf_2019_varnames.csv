@@ -1,0 +1,77 @@
+"","V1"
+"DISYR","Year of discharge"
+"CASEID","Case identification number"
+"STFIPS",NA
+"CBSA2010","CBSA 2010 code"
+"EDUC",NA
+"MARSTAT",NA
+"SERVICES",NA
+"DETCRIM",NA
+"LOS","Length of stay in treatment (days)"
+"PSOURCE",NA
+"NOPRIOR",NA
+"ARRESTS",NA
+"EMPLOY",NA
+"METHUSE",NA
+"PSYPROB",NA
+"PREG",NA
+"GENDER",NA
+"VET",NA
+"LIVARAG",NA
+"DAYWAIT",NA
+"SERVICES_D",NA
+"REASON",NA
+"EMPLOY_D",NA
+"LIVARAG_D",NA
+"ARRESTS_D",NA
+"DSMCRIT","DSM DIAGNOSIS (SuDS 4 OR SuDS 19)"
+"AGE",NA
+"RACE",NA
+"ETHNIC",NA
+"DETNLF",NA
+"DETNLF_D",NA
+"PRIMINC",NA
+"SUB1",NA
+"SUB2",NA
+"SUB3",NA
+"SUB1_D",NA
+"SUB2_D",NA
+"SUB3_D",NA
+"ROUTE1",NA
+"ROUTE2",NA
+"ROUTE3",NA
+"FREQ1",NA
+"FREQ2",NA
+"FREQ3",NA
+"FREQ1_D",NA
+"FREQ2_D",NA
+"FREQ3_D",NA
+"FRSTUSE1",NA
+"FRSTUSE2",NA
+"FRSTUSE3",NA
+"HLTHINS",NA
+"PRIMPAY",NA
+"FREQ_ATND_SELF_HELP",NA
+"FREQ_ATND_SELF_HELP_D",NA
+"ALCFLG","Alcohol reported at admission"
+"COKEFLG","Cocaine/crack reported at admission"
+"MARFLG","Marijuana/hashish reported at admission"
+"HERFLG","Heroin reported at admission"
+"METHFLG","Non-rx methadone reported at admission"
+"OPSYNFLG","Other opiates/synthetics reported at admission"
+"PCPFLG","PCP reported at admission"
+"HALLFLG","Hallucinogens reported at admission"
+"MTHAMFLG","Methamphetamine/speed reported at admission"
+"AMPHFLG","Other amphetamines reported at admission"
+"STIMFLG","Other stimulants reported at admission"
+"BENZFLG","Benzodiazepines reported at admission"
+"TRNQFLG","Other tranquilizers reported at admission"
+"BARBFLG","Barbiturates reported at admission"
+"SEDHPFLG","Other sedatives/hypnotics reported at admission"
+"INHFLG","Inhalants reported at admission"
+"OTCFLG","Over-the-counter medication reported at admission"
+"OTHERFLG","Other drug reported at admission"
+"DIVISION","Census division"
+"REGION","Census region"
+"IDU","Current IV drug use reported at admission"
+"ALCDRUG","Substance use type"
