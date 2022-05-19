@@ -20,9 +20,9 @@ library(usmap)
 ## Loading Data
 
 ```{r readData Main}
-load("Data/nmhss_2020_puf_r.rdata")
-psych_data <- df
-rm(df)
+load("Data/2019 data/nmhss_2019_puf_r.rdata")
+psych_data <- PUF
+rm(PUF)
 ```
 
 ## Looking at Washington State
@@ -55,8 +55,8 @@ num_facilities <- psych_data %>% group_by(LST) %>%
   summarize(num_fac = n())
 
 plot_usmap(data = num_facilities, values = "num_fac") +
-  scale_fill_continuous(name = "Number of Facilities (2020)", label = scales::comma) +
-  labs(title = "Number of Facilities by State (2020)") +
+  scale_fill_continuous(name = "Number of Facilities (2019)", label = scales::comma) +
+  labs(title = "Number of Facilities by State (2019)") +
   theme(legend.position = "right")
   
 ```
@@ -64,14 +64,14 @@ plot_usmap(data = num_facilities, values = "num_fac") +
 Now let's say we want to get per capita information state by state. We are going to need an additional dataset, merge it with num_facilities tbl, create a per capita variable, then plot that. 
 
 ```{r percapita map}
-state_pops <- read.csv("Data/State_pops.csv", header = TRUE)
+state_pops <- read.csv("Data/demo data/State_pops.csv", header = TRUE)
 
 num_facilities <- merge(num_facilities, state_pops) %>%
   mutate(per_10000_r = (num_fac/population)*10000)
 
 plot_usmap(data = num_facilities, values = "per_10000_r") +
-  scale_fill_continuous(name = "Number of Facilities per 10,000 (2020)", label = scales::comma) +
-  labs(title = "Number of Facilities by State by 10,000 people (2020)") +
+  scale_fill_continuous(name = "Number of Facilities per 10,000 (2019)", label = scales::comma) +
+  labs(title = "Number of Facilities by State by 10,000 people (2019)") +
   theme(legend.position = "right")
 ```
 
@@ -84,20 +84,4 @@ load("Data/NSDUH_2020.Rdata")
 NSDH_mi <- NSDUH %>% select
 ```
 
-Ok, actually the state information for the NSDUH is suppressed. I think there is a lot of interesting information in the NSDUH to share with Shelby for potential work, but it isn't super releavnt at the moment. Instead, I am going to pull the percentages of mental illess from the online dataset, store it in a csv, load that in and build the tables from that. Even that's a bit tricky though. Rates of mental illness per state are only available for individuals 18+ on the website. I could get a SUPER rough estimate of the number of total individuals by state by ratioing up the percentage of individuals with mental illness 18+/- in the NSDUH dataset. It's a pretty sketch imputation. We could also just restrict the 2020 census to individuals 18+ if that's a viable option. 
-
-I'm going to start with the 18+ situation. Unfortunately, the census does not have that exact information. Instead I am going to use the CPS information found at https://www.kff.org/other/state-indicator/population-distribution-by-age-cps/?dataView=0&currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D and then ratio the census estimates by the proportion <18  for the relevant year. That will give us an estimate of the 18+ population we can then use for the comparison. 
-
-```{r getting18+est}
-age_state <- read.csv("Data/cps_age_state.csv",  fileEncoding="UTF-8-BOM") %>% 
-  select(c(location, lt18)) %>%
-  rename(state = location)
-
-#now append the ratios to the num_facilities dataset to get an est of total population ge 18 for each state
-num_fac_statecount <- num_facilities %>% 
-  merge(age_state) %>%
-  mutate(pop_ge_18 = round(population * (1-lt18))) %>%
-  select(-c(per_10000_r, lt18))
-```
-
-Ok, next I want to import the percent of residents with either mental illness or serious mental illness. That information is only available on the website for 2019. So I can either assume stability or move back to 2019. Given the COVID 19 crisis emerging in 2020, I am a bit skeptical of extending rates of mental illness forward. I think that means that I need to move back to the 2019 data. That's somewhat painful, but not a huge deal. I just need to download the 2019 data. We no longer have census population data, so we will have to use the CPS estimates...
+Ok, actually the state information for the NSDUH is suppressed. I think there is a lot of interesting information in the NSDUH to share with Shelby for potential work, but it isn't super releavnt at the moment. Instead, I am going to pull the percentages of mental illess from the online dataset, store it in a csv, load that in and build the tables from that. Even that's a bit tricky though. Rates of mental illness per state are only available for individuals 18+ on the website. I chose to pull information from the census's imputation for 2019. I believe this was conducted before the 2020 census results were available, so it may not be entirely accurate. Would probably be worth checking whether there are major changes between imputed 2019 and observed 2020. 
